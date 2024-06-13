@@ -1,0 +1,72 @@
+body{
+    background-color: lightgray;
+}
+
+header h1{
+    color: purple;
+    font-style: italic;
+}
+
+header h3{
+    color: darkgreen;
+    font-style:normal;
+}
+
+footer {
+    color: black;
+}
+
+button {
+    background-color: grey;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+}
+
+button :hover{
+    color: red;
+    cursor: pointer;
+}
+
+
+button :active{
+    color: darkblue;
+    background-color: lime;
+}
+
+
+.false :active{
+    background-color: red;
+}
+
+#Q1A {
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:chartreuse;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    margin: 20px;
+}
+
+p {
+    color: lightgrey;
+}
+
+th{
+    color:lightblue;
+    background-color: orange;
+}
+
+tr{
+    color:black;
+    background-color:lightblue;
+}
+
+#Econ , #Chem {
+    text-decoration: underline;
+}
